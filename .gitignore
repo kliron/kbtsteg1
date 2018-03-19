@@ -1,0 +1,7 @@
+.idea
+*.iml
+*.bolt
+node_modules
+.DS_Store
+
+/kbtsteg1/secrets.go

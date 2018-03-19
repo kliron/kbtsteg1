@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    /* workaround for horizontal scrolling in container-fluid*/
+    overflow-x: hidden;
+}
+
+#top-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#footer {
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    bottom: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#top-wrapper {
+    padding-bottom: 5em; /* minimum = footer height + 1 */
+}
+
+#top-wrapper.loading {
+    opacity: 0.2;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.softyellow {
+    color: #ffff33;
+}
+
+.bg-softyellow {
+    background-color: #ffff33;
+}
+
+.softorange {
+    color: #ff8d1a;
+}
+
+.bg-softorange {
+    background-color: #ff8d1a;
+}
+
+.softblue {
+    color: #D0E8F1;
+}
+
+.bg-softblue {
+    background-color: #D0E8F1;
+}
+
+.steelblue {
+    color: steelblue;
+}
+
+.bg-steelblue {
+    background-color: steelblue;
+}
+
+.lightsteelblue {
+    color: lightsteelblue;
+}
+
+.bg-lightsteelblue {
+    background-color: lightsteelblue;
+}
+
+.six3 {
+    color: #666;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-nav a:focus,
+#main-nav a:link,
+#main-nav a:visited {
+    text-decoration: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.3em;
+    text-shadow: 3px 3px 3px #ccc;
+    transition: color 0.3s;
+}
+
+#main-nav a:hover {color: #ED9121;}
+
+#main-nav a.active:focus,
+#main-nav a.active:link,
+#main-nav a.active:visited {
+    color: #ED9121;
+    text-decoration: underline;
+}
+
+.info-heading {
+    color: #555;
+}
+
+table#users {
+    border-collapse:collapse;
+}
+
+table#users th, table#users td {
+    padding: 0 1.5em 0 1.5em;
+    border: none;
+}
+
+table#users tbody tr:nth-child(1) {
+    background-color: aliceblue;
+}
+
+table#users .user-row.selected {
+    background-color: aquamarine;
+}
+
+.user-row, .header-row {
+    padding: 0.2em;
+}
+
+input.error {
+    border: 1px solid red !important;
+}
